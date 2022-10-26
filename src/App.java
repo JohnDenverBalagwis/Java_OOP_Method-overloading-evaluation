@@ -63,7 +63,7 @@ public class App {
 
         System.out.println("The sum of method with parameters using byte is: " + app.sum3((byte) 2, 3));
 
-        System.out.println("The sum of method with parameters using double data type is: " + app.sum3(100.0, 3.0));
+        System.out.println("The sum of method with parameters using double data type is: " + app.sum3(100.0d, 3.0d));
 
         System.out.println(
                 "The sum of method with parameters using byte data type is: " + app.sum4((byte) 100, (byte) 3));
