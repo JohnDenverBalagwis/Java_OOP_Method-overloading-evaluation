@@ -19,6 +19,11 @@ public class App {
         return a + b;
     }
 
+    // method overloading
+    public float sum3(float a, int b) {
+        return a + b;
+    }
+
     // main method
     public static void main(String[] args) throws Exception {
 
@@ -26,6 +31,7 @@ public class App {
         app.sum();
         System.out.println("The sum of method with return type is: " + app.sum2());
         System.out.println("The sum of method with parameters is: " + app.sum3(100, 3));
+        System.out.println("The sum of method with parameters is: " + app.sum3(100.5f, 3));
 
     }
 
