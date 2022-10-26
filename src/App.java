@@ -3,7 +3,14 @@ public class App {
     public void sum() {
         int a = 1;
         int b = 2;
-        System.out.println(a + b);
+        System.out.println("The sum is " + (a + b));
+
+    }
+
+    // method overloading
+    public void sum(float x, int y) {
+        float total = (x + y);
+        System.out.println("The sum is: " + total);
     }
 
     // method with return type
@@ -54,6 +61,8 @@ public class App {
         App app = new App();
 
         app.sum();
+
+        app.sum(1.5f, 2);
 
         System.out.println("The sum of method with return type is: " + app.sum2());
 
