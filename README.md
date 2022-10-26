@@ -10,7 +10,7 @@ The workspace contains two folders by default, where:
 <br/>
 - `src`: the folder to maintain sources<br/>
 - `lib`: the folder to maintain dependencies<br/>
-- <br/>
+<br/>
 <br/>
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 <br/>
