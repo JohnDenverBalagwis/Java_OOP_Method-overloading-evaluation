@@ -14,12 +14,18 @@ public class App {
 
     }
 
+    // create a method with parameters
+    public int name3(int a, int b) {
+        return a + b;
+    }
+
     // main method
     public static void main(String[] args) throws Exception {
 
         App app = new App();
         app.name();
         System.out.println("The sum of method with return type is: " + app.name2());
+        System.out.println("The sum of method with parameters is: " + app.name3(100, 3));
 
     }
 
