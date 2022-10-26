@@ -1,13 +1,13 @@
 public class App {
     // method
-    public void name() {
+    public void sum() {
         int a = 1;
         int b = 2;
         System.out.println(a + b);
     }
 
     // method with return type
-    public int name2() {
+    public int sum2() {
         int a = 2;
         int b = 2;
         return a + b;
@@ -15,7 +15,7 @@ public class App {
     }
 
     // create a method with parameters
-    public int name3(int a, int b) {
+    public int sum3(int a, int b) {
         return a + b;
     }
 
@@ -23,9 +23,9 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         App app = new App();
-        app.name();
-        System.out.println("The sum of method with return type is: " + app.name2());
-        System.out.println("The sum of method with parameters is: " + app.name3(100, 3));
+        app.sum();
+        System.out.println("The sum of method with return type is: " + app.sum2());
+        System.out.println("The sum of method with parameters is: " + app.sum3(100, 3));
 
     }
 
