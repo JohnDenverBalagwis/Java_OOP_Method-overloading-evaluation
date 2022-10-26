@@ -8,8 +8,8 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 The workspace contains two folders by default, where:
 <br/>
 <br/>
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: the folder to maintain sources<br/>
+- `lib`: the folder to maintain dependencies<br/>
 - <br/>
 <br/>
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
@@ -19,9 +19,6 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 <br/>
 ## Dependency Management
 <br/>
-<br/>
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 <br/>
-#� �J�a�v�a�_�w�i�t�h�_�R�e�t�u�r�n�T�y�p�e�_�w�i�t�h�o�u�t�_�R�e�t�u�r�n�T�y�p�e�
-�
-�
+
